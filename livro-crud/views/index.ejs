@@ -19,9 +19,23 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td colspan="4">Nenhum cliente Cadastrado</td>
-        </tr>
+        <% if(!docs || docs.length === 0) { %>
+          <tr>
+            <td colspan="4">Nenhum cliente Cadastrado</td>
+          </tr>
+        <% } else { %>
+          <% docs.forEach(customer => { %>
+            <tr>
+                <td><%= customer.nome %></td>
+                <td><%=customer.idade%></td>
+                <td><%=customer.uf%></td>
+                <td>
+                  <a href="/edit/<%= customer._id %>">Editar</a>
+
+                </td>
+            </tr>
+          <% })  %>        
+        <% } %>
       </tbody>
       <tfoot>
         <td colspan="4"><a href="/new">Cadastrar Novo</a> </td>

@@ -4,10 +4,10 @@
  * Module dependencies.
  */
 
+global.db = require('../db');
 var app = require('../app');
 var debug = require('debug')('livro-crud:server');
 var http = require('http');
-
 /**
  * Get port from environment and store in Express.
  */
