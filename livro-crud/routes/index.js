@@ -42,4 +42,12 @@ router.post('/edit/:id', function (req, res, next) {
   })
 })
 
+router.get('/delete/:id', function(req,res,next){
+  var id = req.params.id
+  global.db.deleteOne(id, (e,r)=>{
+    if(e){return console.error(e)}
+    res.redirect('/?delete=true')
+  })
+})
+
 module.exports = router;

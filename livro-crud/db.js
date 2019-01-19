@@ -19,5 +19,8 @@ function insert(customer, callback) {
 function update(id, customer, callback) {
     global.conn.collection("customers").update({ _id: new ObjectId(id) }, customer, { upsert: true }, callback)
 }
+function deleteOne(id, callback){
+    global.conn.collection("customers").deleteOne({ _id: new ObjectId(id)}, callback)
+}
 
-module.exports = { findAll, findOne, insert, update }
+module.exports = { findAll, findOne, insert, update, deleteOne }
