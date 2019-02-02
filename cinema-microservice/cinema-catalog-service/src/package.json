@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "test": "node index.text | tap-spec"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "mongodb": "^3.1.13",
     "morgan": "^1.9.1",
     "supertest": "^3.4.2",
+    "tap-spec": "^5.0.0",
     "tape": "^4.9.2"
   }
 }
