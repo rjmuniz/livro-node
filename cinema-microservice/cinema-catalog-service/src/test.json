@@ -1,0 +1,191 @@
+{
+    "_id" : ObjectId("5c54f2578a3459b47a142314"),
+    "cidade" : "Porto Alegre",
+    "uf" : "RS",
+    "pais" : "BR",
+    "cinemas" : [ 
+        {
+            "_id" : ObjectId("5c54f2578a3459b47a142312"),
+            "nome" : "Cinemark Bourbon Ipiranga",
+            "salas" : [ 
+                {
+                    "nome" : 1.0,
+                    "sessoes" : [ 
+                        {
+                            "data" : ISODate("2019-02-02T09:00:00.000Z"),
+                            "idFilme" : ObjectId("5c534fcf5702f759664bb93c"),
+                            "filme" : "Vingadores:Gerra Infinita",
+                            "valor" : 25.0,
+                            "assentos" : [ 
+                                {
+                                    "numero" : 1.0,
+                                    "disponivel" : true
+                                }, 
+                                {
+                                    "numero" : 2.0,
+                                    "disponivel" : false
+                                }
+                            ]
+                        }, 
+                        {
+                            "data" : ISODate("2019-02-02T11:00:00.000Z"),
+                            "idFilme" : ObjectId("5c534fcf5702f759664bb93c"),
+                            "filme" : "Vingadores:Gerra Infinita",
+                            "valor" : 25.0,
+                            "assentos" : [ 
+                                {
+                                    "numero" : 1.0,
+                                    "disponivel" : true
+                                }, 
+                                {
+                                    "numero" : 2.0,
+                                    "disponivel" : true
+                                }
+                            ]
+                        }, 
+                        {
+                            "data" : ISODate("2019-02-02T13:00:00.000Z"),
+                            "idFilme" : ObjectId("5c534fcf5702f759664bb93c"),
+                            "filme" : "Vingadores:Gerra Infinita",
+                            "valor" : 20.0,
+                            "assentos" : [ 
+                                {
+                                    "numero" : 1.0,
+                                    "disponivel" : true
+                                }, 
+                                {
+                                    "numero" : 2.0,
+                                    "disponivel" : false
+                                }, 
+                                {
+                                    "numero" : 3.0,
+                                    "disponivel" : true
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "nome" : 2.0,
+                    "sessoes" : [ 
+                        {
+                            "data" : ISODate("2019-02-02T09:00:00.000Z"),
+                            "idFilme" : ObjectId("5c5350435702f759664bb96f"),
+                            "filme" : "A Cabana",
+                            "valor" : 25.0,
+                            "assentos" : [ 
+                                {
+                                    "numero" : 1.0,
+                                    "disponivel" : true
+                                }, 
+                                {
+                                    "numero" : 2.0,
+                                    "disponivel" : false
+                                }
+                            ]
+                        }, 
+                        {
+                            "data" : ISODate("2019-02-02T11:00:00.000Z"),
+                            "idFilme" : ObjectId("5c5350435702f759664bb96f"),
+                            "filme" : "A Cabana",
+                            "valor" : 25.0,
+                            "assentos" : [ 
+                                {
+                                    "numero" : 1.0,
+                                    "disponivel" : true
+                                }, 
+                                {
+                                    "numero" : 2.0,
+                                    "disponivel" : true
+                                }
+                            ]
+                        }, 
+                        {
+                            "data" : ISODate("2019-02-02T13:00:00.000Z"),
+                            "idFilme" : ObjectId("5c5350435702f759664bb96f"),
+                            "filme" : "A Cabana",
+                            "valor" : 20.0,
+                            "assentos" : [ 
+                                {
+                                    "numero" : 1.0,
+                                    "disponivel" : true
+                                }, 
+                                {
+                                    "numero" : 2.0,
+                                    "disponivel" : false
+                                }, 
+                                {
+                                    "numero" : 3.0,
+                                    "disponivel" : true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "_id" : ObjectId("5c54f2578a3459b47a142313"),
+            "nome" : "GNC Lindoia",
+            "salas" : [ 
+                {
+                    "nome" : 100.0,
+                    "sessoes" : [ 
+                        {
+                            "data" : ISODate("2019-02-02T09:00:00.000Z"),
+                            "idFilme" : ObjectId("5c5350435702f759664bb96f"),
+                            "filme" : "A Cabana",
+                            "valor" : 25.0,
+                            "assentos" : [ 
+                                {
+                                    "numero" : 1.0,
+                                    "disponivel" : true
+                                }, 
+                                {
+                                    "numero" : 2.0,
+                                    "disponivel" : false
+                                }
+                            ]
+                        }, 
+                        {
+                            "data" : ISODate("2019-02-02T11:00:00.000Z"),
+                            "idFilme" : ObjectId("5c5350435702f759664bb96f"),
+                            "filme" : "A Cabana",
+                            "valor" : 25.0,
+                            "assentos" : [ 
+                                {
+                                    "numero" : 1.0,
+                                    "disponivel" : true
+                                }, 
+                                {
+                                    "numero" : 2.0,
+                                    "disponivel" : true
+                                }
+                            ]
+                        }, 
+                        {
+                            "data" : ISODate("2019-02-02T13:00:00.000Z"),
+                            "idFilme" : ObjectId("5c5350435702f759664bb96f"),
+                            "filme" : "A Cabana",
+                            "valor" : 20.0,
+                            "assentos" : [ 
+                                {
+                                    "numero" : 1.0,
+                                    "disponivel" : true
+                                }, 
+                                {
+                                    "numero" : 2.0,
+                                    "disponivel" : false
+                                }, 
+                                {
+                                    "numero" : 3.0,
+                                    "disponivel" : true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

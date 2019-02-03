@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "node index.text | tap-spec"
+    "test": "node index.test | tap-spec"
   },
   "author": "",
   "license": "ISC",

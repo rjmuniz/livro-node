@@ -18,7 +18,7 @@ function start(api, repository, callback) {
 
 function stop() {
     if (server)
-        server.close()
+        server.close( ()=>console.log('fechando conecoes'))
     return true
 }
 
